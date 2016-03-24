@@ -18,8 +18,12 @@
 		EB3DF12A1CA2DD5100A3F047 /* ZXWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF1291CA2DD5100A3F047 /* ZXWViewModel.m */; };
 		EB3DF12F1CA2EE3700A3F047 /* ZXWTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF12E1CA2EE3700A3F047 /* ZXWTabBarViewModel.m */; };
 		EB3DF1321CA2EE5000A3F047 /* ZXWTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF1311CA2EE5000A3F047 /* ZXWTableViewModel.m */; };
-		EB3DF1381CA2F28800A3F047 /* ZXWViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF1371CA2F28800A3F047 /* ZXWViewModelServicesImpl.m */; };
 		EB3DF13D1CA2F38F00A3F047 /* ZXWAppStoreServiceImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF13C1CA2F38F00A3F047 /* ZXWAppStoreServiceImpl.m */; };
+		EB3DF1401CA3784A00A3F047 /* ZXWSegmentedControlViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF13F1CA3784A00A3F047 /* ZXWSegmentedControlViewModel.m */; };
+		EB3DF1431CA3787A00A3F047 /* ZXWWebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF1421CA3787A00A3F047 /* ZXWWebViewModel.m */; };
+		EB3DF14B1CA3834D00A3F047 /* ZXWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF14A1CA3834D00A3F047 /* ZXWViewController.m */; };
+		EB3DF14E1CA3837B00A3F047 /* ZXWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF14D1CA3837B00A3F047 /* ZXWTabBarController.m */; };
+		EB3DF1531CA3866300A3F047 /* ZXWViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF1521CA3866300A3F047 /* ZXWViewModelServicesImpl.m */; };
 		F78CAA52F0E496376A964E61 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967E5D8ED04E008EE5A3ADFA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,12 +73,20 @@
 		EB3DF12E1CA2EE3700A3F047 /* ZXWTabBarViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWTabBarViewModel.m; sourceTree = "<group>"; };
 		EB3DF1301CA2EE5000A3F047 /* ZXWTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWTableViewModel.h; sourceTree = "<group>"; };
 		EB3DF1311CA2EE5000A3F047 /* ZXWTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWTableViewModel.m; sourceTree = "<group>"; };
-		EB3DF1331CA2F05200A3F047 /* ZXWViewModelServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWViewModelServices.h; sourceTree = "<group>"; };
-		EB3DF1361CA2F28800A3F047 /* ZXWViewModelServicesImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWViewModelServicesImpl.h; sourceTree = "<group>"; };
-		EB3DF1371CA2F28800A3F047 /* ZXWViewModelServicesImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWViewModelServicesImpl.m; sourceTree = "<group>"; };
 		EB3DF13A1CA2F33200A3F047 /* ZXWAppStoreService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXWAppStoreService.h; sourceTree = "<group>"; };
 		EB3DF13B1CA2F38F00A3F047 /* ZXWAppStoreServiceImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWAppStoreServiceImpl.h; sourceTree = "<group>"; };
 		EB3DF13C1CA2F38F00A3F047 /* ZXWAppStoreServiceImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWAppStoreServiceImpl.m; sourceTree = "<group>"; };
+		EB3DF13E1CA3784A00A3F047 /* ZXWSegmentedControlViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWSegmentedControlViewModel.h; sourceTree = "<group>"; };
+		EB3DF13F1CA3784A00A3F047 /* ZXWSegmentedControlViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWSegmentedControlViewModel.m; sourceTree = "<group>"; };
+		EB3DF1411CA3787A00A3F047 /* ZXWWebViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWWebViewModel.h; sourceTree = "<group>"; };
+		EB3DF1421CA3787A00A3F047 /* ZXWWebViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWWebViewModel.m; sourceTree = "<group>"; };
+		EB3DF1491CA3834D00A3F047 /* ZXWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWViewController.h; sourceTree = "<group>"; };
+		EB3DF14A1CA3834D00A3F047 /* ZXWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWViewController.m; sourceTree = "<group>"; };
+		EB3DF14C1CA3837B00A3F047 /* ZXWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWTabBarController.h; sourceTree = "<group>"; };
+		EB3DF14D1CA3837B00A3F047 /* ZXWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWTabBarController.m; sourceTree = "<group>"; };
+		EB3DF1501CA3866300A3F047 /* ZXWViewModelServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWViewModelServices.h; sourceTree = "<group>"; };
+		EB3DF1511CA3866300A3F047 /* ZXWViewModelServicesImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWViewModelServicesImpl.h; sourceTree = "<group>"; };
+		EB3DF1521CA3866300A3F047 /* ZXWViewModelServicesImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWViewModelServicesImpl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +159,7 @@
 			children = (
 				EB3DF1221CA2DCBE00A3F047 /* Util */,
 				EB3DF1231CA2DCBE00A3F047 /* ViewModel */,
+				EB3DF1441CA37A9600A3F047 /* ViewController */,
 				EB3DF0EE1CA2CD5500A3F047 /* AppDelegate.h */,
 				EB3DF0EF1CA2CD5500A3F047 /* AppDelegate.m */,
 				EB3DF0F11CA2CD5500A3F047 /* ViewController.h */,
@@ -199,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				EB3DF1241CA2DCBE00A3F047 /* BaseClass */,
+				EB3DF14F1CA3866300A3F047 /* BaseServices */,
 				EB3DF1391CA2F31F00A3F047 /* Services */,
 			);
 			path = ViewModel;
@@ -214,9 +228,10 @@
 				EB3DF12E1CA2EE3700A3F047 /* ZXWTabBarViewModel.m */,
 				EB3DF1301CA2EE5000A3F047 /* ZXWTableViewModel.h */,
 				EB3DF1311CA2EE5000A3F047 /* ZXWTableViewModel.m */,
-				EB3DF1331CA2F05200A3F047 /* ZXWViewModelServices.h */,
-				EB3DF1361CA2F28800A3F047 /* ZXWViewModelServicesImpl.h */,
-				EB3DF1371CA2F28800A3F047 /* ZXWViewModelServicesImpl.m */,
+				EB3DF13E1CA3784A00A3F047 /* ZXWSegmentedControlViewModel.h */,
+				EB3DF13F1CA3784A00A3F047 /* ZXWSegmentedControlViewModel.m */,
+				EB3DF1411CA3787A00A3F047 /* ZXWWebViewModel.h */,
+				EB3DF1421CA3787A00A3F047 /* ZXWWebViewModel.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -229,6 +244,35 @@
 				EB3DF13C1CA2F38F00A3F047 /* ZXWAppStoreServiceImpl.m */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		EB3DF1441CA37A9600A3F047 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB3DF1481CA3834D00A3F047 /* BaseViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EB3DF1481CA3834D00A3F047 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB3DF1491CA3834D00A3F047 /* ZXWViewController.h */,
+				EB3DF14A1CA3834D00A3F047 /* ZXWViewController.m */,
+				EB3DF14C1CA3837B00A3F047 /* ZXWTabBarController.h */,
+				EB3DF14D1CA3837B00A3F047 /* ZXWTabBarController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		EB3DF14F1CA3866300A3F047 /* BaseServices */ = {
+			isa = PBXGroup;
+			children = (
+				EB3DF1501CA3866300A3F047 /* ZXWViewModelServices.h */,
+				EB3DF1511CA3866300A3F047 /* ZXWViewModelServicesImpl.h */,
+				EB3DF1521CA3866300A3F047 /* ZXWViewModelServicesImpl.m */,
+			);
+			path = BaseServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,13 +457,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB3DF0F31CA2CD5500A3F047 /* ViewController.m in Sources */,
+				EB3DF14E1CA3837B00A3F047 /* ZXWTabBarController.m in Sources */,
 				EB3DF12F1CA2EE3700A3F047 /* ZXWTabBarViewModel.m in Sources */,
 				EB3DF0F01CA2CD5500A3F047 /* AppDelegate.m in Sources */,
 				EB3DF12A1CA2DD5100A3F047 /* ZXWViewModel.m in Sources */,
+				EB3DF1531CA3866300A3F047 /* ZXWViewModelServicesImpl.m in Sources */,
 				EB3DF0ED1CA2CD5500A3F047 /* main.m in Sources */,
+				EB3DF1401CA3784A00A3F047 /* ZXWSegmentedControlViewModel.m in Sources */,
 				EB3DF13D1CA2F38F00A3F047 /* ZXWAppStoreServiceImpl.m in Sources */,
 				EB3DF1321CA2EE5000A3F047 /* ZXWTableViewModel.m in Sources */,
-				EB3DF1381CA2F28800A3F047 /* ZXWViewModelServicesImpl.m in Sources */,
+				EB3DF14B1CA3834D00A3F047 /* ZXWViewController.m in Sources */,
+				EB3DF1431CA3787A00A3F047 /* ZXWWebViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

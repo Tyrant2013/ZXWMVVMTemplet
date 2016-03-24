@@ -7,8 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@protocol ZXWViewModelServices;
+#import "ZXWViewModelServices.h"
 
 /// The type of the title view.
 typedef NS_ENUM(NSUInteger, ZXWTitleViewType) {
