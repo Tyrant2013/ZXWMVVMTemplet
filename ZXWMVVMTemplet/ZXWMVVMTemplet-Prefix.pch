@@ -20,6 +20,7 @@
     #import <UIKit/UIKit.h>
 
     #import "ZXWConstant.h"
+    #import "UIView+ZXWFrameAdditions.h"
 #endif
 
 #endif /* ZXWMVVMTemplet_Prefix_pch */

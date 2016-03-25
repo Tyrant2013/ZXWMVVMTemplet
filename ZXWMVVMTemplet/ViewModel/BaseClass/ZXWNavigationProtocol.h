@@ -9,7 +9,6 @@
 #import <Foundation/Foundation.h>
 #import "ZXWViewModel.h"
 
-
 @protocol ZXWNavigationProtocol <NSObject>
 /// Pushs the corresponding view controller.
 ///

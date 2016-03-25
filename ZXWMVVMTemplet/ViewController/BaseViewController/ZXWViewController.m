@@ -72,7 +72,7 @@
     }];
     
     [self.viewModel.errors subscribeNext:^(NSError *error) {
-        @strongify(self)
+//        @strongify(self)
         ZXWLogError(error);
         /// Deal with error.
         if ([error.domain isEqual:@""] && error.code == 1) {

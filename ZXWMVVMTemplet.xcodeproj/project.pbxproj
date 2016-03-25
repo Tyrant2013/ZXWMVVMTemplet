@@ -24,6 +24,8 @@
 		EB3DF14B1CA3834D00A3F047 /* ZXWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF14A1CA3834D00A3F047 /* ZXWViewController.m */; };
 		EB3DF14E1CA3837B00A3F047 /* ZXWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF14D1CA3837B00A3F047 /* ZXWTabBarController.m */; };
 		EB3DF1531CA3866300A3F047 /* ZXWViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3DF1521CA3866300A3F047 /* ZXWViewModelServicesImpl.m */; };
+		EBED84B51CA42DF7009CCE01 /* ZXWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED84B41CA42DF7009CCE01 /* ZXWTableViewController.m */; };
+		EBED84B91CA434DF009CCE01 /* UIView+ZXWFrameAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EBED84B81CA434DF009CCE01 /* UIView+ZXWFrameAdditions.m */; };
 		F78CAA52F0E496376A964E61 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967E5D8ED04E008EE5A3ADFA /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,10 @@
 		EB3DF1501CA3866300A3F047 /* ZXWViewModelServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWViewModelServices.h; sourceTree = "<group>"; };
 		EB3DF1511CA3866300A3F047 /* ZXWViewModelServicesImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWViewModelServicesImpl.h; sourceTree = "<group>"; };
 		EB3DF1521CA3866300A3F047 /* ZXWViewModelServicesImpl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWViewModelServicesImpl.m; sourceTree = "<group>"; };
+		EBED84B31CA42DF7009CCE01 /* ZXWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXWTableViewController.h; sourceTree = "<group>"; };
+		EBED84B41CA42DF7009CCE01 /* ZXWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXWTableViewController.m; sourceTree = "<group>"; };
+		EBED84B71CA434DF009CCE01 /* UIView+ZXWFrameAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXWFrameAdditions.h"; sourceTree = "<group>"; };
+		EBED84B81CA434DF009CCE01 /* UIView+ZXWFrameAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXWFrameAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +209,7 @@
 		EB3DF1221CA2DCBE00A3F047 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				EBED84B61CA434C1009CCE01 /* UIKitAddition */,
 				EB3DF12B1CA2DEAD00A3F047 /* ZXWConstant.h */,
 			);
 			path = Util;
@@ -261,6 +268,8 @@
 				EB3DF14A1CA3834D00A3F047 /* ZXWViewController.m */,
 				EB3DF14C1CA3837B00A3F047 /* ZXWTabBarController.h */,
 				EB3DF14D1CA3837B00A3F047 /* ZXWTabBarController.m */,
+				EBED84B31CA42DF7009CCE01 /* ZXWTableViewController.h */,
+				EBED84B41CA42DF7009CCE01 /* ZXWTableViewController.m */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -273,6 +282,15 @@
 				EB3DF1521CA3866300A3F047 /* ZXWViewModelServicesImpl.m */,
 			);
 			path = BaseServices;
+			sourceTree = "<group>";
+		};
+		EBED84B61CA434C1009CCE01 /* UIKitAddition */ = {
+			isa = PBXGroup;
+			children = (
+				EBED84B71CA434DF009CCE01 /* UIView+ZXWFrameAdditions.h */,
+				EBED84B81CA434DF009CCE01 /* UIView+ZXWFrameAdditions.m */,
+			);
+			path = UIKitAddition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,6 +476,7 @@
 			files = (
 				EB3DF0F31CA2CD5500A3F047 /* ViewController.m in Sources */,
 				EB3DF14E1CA3837B00A3F047 /* ZXWTabBarController.m in Sources */,
+				EBED84B91CA434DF009CCE01 /* UIView+ZXWFrameAdditions.m in Sources */,
 				EB3DF12F1CA2EE3700A3F047 /* ZXWTabBarViewModel.m in Sources */,
 				EB3DF0F01CA2CD5500A3F047 /* AppDelegate.m in Sources */,
 				EB3DF12A1CA2DD5100A3F047 /* ZXWViewModel.m in Sources */,
@@ -467,6 +486,7 @@
 				EB3DF13D1CA2F38F00A3F047 /* ZXWAppStoreServiceImpl.m in Sources */,
 				EB3DF1321CA2EE5000A3F047 /* ZXWTableViewModel.m in Sources */,
 				EB3DF14B1CA3834D00A3F047 /* ZXWViewController.m in Sources */,
+				EBED84B51CA42DF7009CCE01 /* ZXWTableViewController.m in Sources */,
 				EB3DF1431CA3787A00A3F047 /* ZXWWebViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
